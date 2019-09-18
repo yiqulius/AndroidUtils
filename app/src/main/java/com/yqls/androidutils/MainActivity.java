@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imgFileUtils.imgToGallery(this,"测试",convertImg.drawable2Bitmap(getResources().getDrawable(R.drawable.ic_img)));
+//        imgFileUtils.imgToGallery(this,"测试",convertImg.drawable2Bitmap(getResources().getDrawable(R.drawable.ic_img)));
+
+        DisplayUtils.printDisplayMetrics(this);
     }
 }
